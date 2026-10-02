@@ -1,0 +1,26 @@
+{
+  "name": "lab03",
+  "version": "1.0.0",
+  "description": "Lab 03",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev" : "nodemon ./index.js",
+    "test" : "echo 'Error no test specified'"
+  },
+  "keywords": [
+    "Express",
+    "Get Params vs querey",
+    "Node vs nodemon",
+    "static files"
+  ],
+  "author": "Christian Garcia Flores",
+  "license" : "ISC",
+  "decription" : "Running a web server using Express",
+  "dependencies": {
+    "express" : "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon" : "3.1.14"
+  }
+}

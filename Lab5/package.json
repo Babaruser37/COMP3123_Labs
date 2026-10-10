@@ -1,0 +1,25 @@
+{
+  "name": "lab5_express",
+  "version": "1.0.0",
+  "description": "using express framework to ssetup server",
+  "keywords": [
+    "express"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "101543437_COMP3123-exec05"
+  },
+  "license": "ISC",
+  "author": "Christian Garcia Flores",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon ./server.js localhost 8081",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dateformat": "^5.0.3",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
+  }
+}

@@ -61,10 +61,11 @@ app.use((err,req,res,next) => {
 **6. Explain the Purpose of `express.Router()` in the Code Above.**
 
 - Why is `express.Router()` used in Express.js applications, and how does it benefit the code structure?
-
+- `express.Router` is used as a way to groip related routes and middelware from the main express app.
 **7. Error Handling in Express.js**
 
 - How would you implement error handling in the Express routes to ensure that any issues (such as file not found or server errors) are appropriately handled? Provide an example.
+- Using try-catch blocks
 
 ---
 
